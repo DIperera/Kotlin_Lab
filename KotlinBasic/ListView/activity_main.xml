@@ -1,3 +1,4 @@
+<!--Designing parts of the Main Activity(including its fragment's design parts) are done in this xml file-->
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- Root layout of the screen, using LinearLayout with vertical orientation -->
