@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
 
+<!-- Root layout of the screen, using LinearLayout with vertical orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  <!-- Layout width fills the entire screen -->
+    android:layout_height="match_parent" <!-- Layout height fills the entire screen -->
+    android:orientation="vertical">      <!-- Child views are arranged vertically -->
+
+    <!-- ListView is the component that will display a scrollable list of items -->
     <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:id="@+id/listView"                 <!-- Unique ID to access this ListView in Kotlin code -->
+        android:layout_width="match_parent"        <!-- ListView fills the entire width -->
+        android:layout_height="wrap_content" />    <!-- Height adjusts based on content -->
+
 </LinearLayout>
