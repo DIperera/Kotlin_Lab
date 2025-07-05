@@ -1,10 +1,10 @@
 package com.example.listviewexample
 
-import android.os.Bundle
-import android.widget.ArrayAdapter
+import android.os.Bundle //Purpose: Gives access to the Bundle class, which holds data passed between activities, especially in onCreate(savedInstanceState: Bundle?).
+import android.widget.ArrayAdapter //ArrayAdapter is a bridge between a  list and a UI component (ListViews, Spinner, ...).
 import android.widget.ListView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity //Purpose: Allows you to use AppCompatActivity as your main activity class, which supports modern Android features and backward compatibility.
 
 class MainActivity : AppCompatActivity() {
 
