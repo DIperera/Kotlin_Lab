@@ -26,3 +26,8 @@ fun getCubes(arr: FloatArray): FloatArray {
     return result
 }
 
+/*arr.indices gives you the valid index range of the array.
+
+Example: if array size = 4 → arr.indices = 0..3.
+
+So you’re looping safely from index 0 to 3.*/
