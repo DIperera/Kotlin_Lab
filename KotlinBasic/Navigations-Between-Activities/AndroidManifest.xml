@@ -1,0 +1,14 @@
+//This file will be auto updated
+<application
+    ... >
+    <!-- Activity 2 registered here -->
+    <activity android:name=".SecondActivity"></activity>
+
+    <!-- MainActivity is launcher activity (first screen of app) -->
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+</application>
