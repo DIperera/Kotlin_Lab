@@ -1,0 +1,15 @@
+Explanation
+
+-ActivityMainBinding is an auto-generated class created by View Binding in Android.
+-It’s generated from your activity_main.xml layout.
+-Instead of using findViewById, you can directly access views like:
+
+val binding = ActivityMainBinding.inflate(layoutInflater)
+setContentView(binding.root)
+
+binding.btnStartService.setOnClickListener {
+    // no need for findViewById
+}
+
+👉 So, ActivityMainBinding is just a safe shortcut to access views from activity_main.xml.
+
