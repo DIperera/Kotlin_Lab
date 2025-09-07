@@ -9,6 +9,7 @@ import android.os.IBinder
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myserviceapp.databinding.ActivityMainBinding
+//ActivityMainBinding is just a safe shortcut to access views(ex: buttons) from activity_main.xml
 
 class MainActivity : AppCompatActivity() {
 
